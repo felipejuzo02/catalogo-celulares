@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+	width: 94%;
+	margin: 0 auto;
+}
+
+.cabeçalho{
+	position: fixed;
+	width: 100%;
+	padding: 5px 0;
+}
+
+.cabeçalho .container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+.menu-nav a{
+	margin-left: 20px;
+	text-decoration: none;
+	color: black;
+}
+
+.menu-nav a:hover{
+	color: #7197db;
+}
+
+.menu-nav-login{
+	padding: 5px 15px;
+	border: 1px solid #7197db;
+	background-color: #7197db;
+	border-radius: 10px;
+}
+
+.menu-nav-login span{
+	color: white;
+}
+
+
+main{
+	padding-top: 60px;
+}
+
+
+.banner {
+	margin-top: 40px;
+	background-image: url(../img/bk.jpg);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover; 
+
+}
+
+.descritivo-banner{
+	width: 50%;
+	padding: 140px 0;
+	text-align: justify;
+}
+
+.descritivo-banner > h2{
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.descritivo-banner h2 > span{
+	color: #7197db;
+}
+
+.descritivo-banner > p{
+	margin: 15px 0;
+	font-size: 18px;
+}
+
+.bt-saiba-mais{
+	padding-top: 20px;
+}
+
+.bt-saiba-mais a{
+	padding: 10px 20px;
+	background-color: #7197db;
+	color: white;
+	border-radius: 15px;
+	text-decoration: none;
+}
